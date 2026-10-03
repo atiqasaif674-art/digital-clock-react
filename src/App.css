@@ -1,0 +1,31 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.clock-box {
+  width: 400px;
+  padding: 40px;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+.clock-box h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #333;
+}
+.clock {
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #667eea;
+}
+.clock-box p {
+  margin-top: 20px;
+  color: #777;
+  font-size: 18px;
+}
